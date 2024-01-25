@@ -1,0 +1,682 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.close {
+    display: none;
+}
+
+.open {
+    display: none;
+}
+
+.flex h1 {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: brown;
+}
+
+.flex ul {
+    margin-right: 4.6rem;
+}
+
+.flex ul li {
+    display: inline;
+    margin-left: .4rem;
+    list-style-type: none;
+    color: white;
+}
+
+.flex ul li a {
+    text-decoration: none;
+    padding: .7rem;
+    font-size: 1.3rem;
+    transition: 1s;
+}
+
+.flex ul li a:hover {
+    color: brown;
+}
+
+.flex {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(3, 3, 31);
+    position: fixed;
+}
+
+.head {
+    background: rgb(3, 3, 31);
+    width: 100%;
+    height: 100vh;
+}
+
+.note h4 {
+    color: brown;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.note h1 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.note p {
+    color: white;
+    font-size: .9rem;
+    width: 410px;
+}
+
+.note button {
+    border: none;
+    background: brown;
+    width: 8rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.note button:hover {
+    background: rgb(255, 0, 0);
+}
+
+.note img {
+    width: 50%;
+    border-radius: 2rem;
+    margin-left: 9rem;
+}
+
+.note {
+    display: flex;
+    padding: 9rem;
+}
+
+
+
+/* about us */
+.about{
+    background: rgb(2, 45, 59);
+    width: 100%;
+    height: 100vh;
+    padding: 4rem;
+}
+.about h1{
+    color: rgb(113, 23, 23);
+    font-size: 3rem;
+}
+.selet{
+    display: flex;
+}
+.selet1 h2{
+    font-size: 2rem;
+    width: 300px;
+    color: antiquewhite;
+    padding: 1rem;
+}
+.selet1 p{
+    font-size: 1.2rem;
+    width: 300px;
+    color: rgb(134, 131, 126);
+    padding: 1rem;
+}
+.selet2 h2{
+    font-size: 2rem;
+    width: 300px;
+    color: antiquewhite;
+    padding: 1rem;
+}
+.selet2 p{
+    font-size: 1.2rem;
+    width: 300px;
+    color: rgb(134, 131, 126);
+    padding: 1rem;
+}
+.selet2{
+    margin-left: 30%;
+    background: rgb(75, 72, 51);
+    width: 300px;
+    border-radius: 2rem;
+}
+.selet1{
+    background: rgb(75, 72, 51);
+    width: 300px;
+    border-radius: 2rem;
+}
+
+
+/* services */
+.style{
+    background: rgb(3, 21, 60);
+    width: 100%;
+    height: 100vh;
+    padding: 4rem;
+}
+.style h3{
+    color: rgb(149, 138, 125);
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.style h1{
+    color: rgb(191, 38, 38);
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.work{
+    display: flex;
+    padding-top: 2rem;
+}
+.work1{
+    background:  rgb(149, 138, 125);
+    border-radius: 2rem;
+    margin-left: 3rem;
+}
+.work1 h2{
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(137, 18, 18);
+}
+.work1 p{
+    padding: 1rem;
+    width: 280px;
+    text-align: center;
+    font-size: 1rem;
+}
+.work2{
+    background:  rgb(149, 138, 125);
+    border-radius: 2rem;
+    margin-left: 7rem;
+}
+.work2 h2{
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(137, 18, 18);
+}
+.work2 p{
+    padding: 1rem;
+    width: 280px;
+    text-align: center;
+    font-size: 1rem;
+}
+.work3{
+    background:  rgb(149, 138, 125);
+    border-radius: 2rem;
+    margin-left: 7rem;
+}
+.work3 h2{
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(137, 18, 18);
+}
+.work3 p{
+    padding: 1rem;
+    width: 280px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* portfolio */
+.control{
+    background: rgb(3, 3, 31);
+    width: 100%;
+    height: 100vh;
+    padding-top: 4rem;
+}
+.control h3{
+    color: rgb(150, 28, 28);
+    font-size: 1.6rem;
+    text-align: center;
+}
+.control h1{
+    color: antiquewhite;
+    font-size: 2rem;
+    text-align: center;
+}
+.con{
+    display: flex;
+    margin-top: 1rem;
+}
+.con1 img{
+    margin-left: 100px;
+    width: 70%;
+}
+.con2 img{
+    margin-left: 100px;
+    width: 70%;
+}
+.con3 img{
+    margin-left: 100px;
+    width: 70%;
+}
+.cont{
+    display: flex;
+    padding-top: 1rem;
+}
+.con4 img{
+    margin-left: 100px;
+    width: 70%;
+}
+.con5 img{
+    margin-left: 100px;
+    width: 70%;
+}
+.con6 img{
+    margin-left: 100px;
+    width: 70%;
+}
+
+/* contact us */
+.come{
+    background: rgb(2, 45, 59);
+    width: 100%;
+    height: 100vh;
+    padding: 4rem;
+}
+.come .lot{
+    width: 16%;
+    border-radius: 2rem;
+    margin-left: 42%;
+    padding-top: 1.3rem;
+}
+.come h1{
+    color: rgb(167, 56, 56);
+    font-size: 3rem;
+    text-align: center;
+}
+.fow{
+    display: flex;
+    margin-left: 30%;
+}
+.foot{
+    display: flex;
+    padding-top: 3rem;
+}
+.foot img{
+    width: 20px;
+    height: 20px;
+}
+.foot p{
+    margin-left: .5rem;
+    color: antiquewhite;
+}
+.foot1{
+    display: flex;
+    padding-left: 8rem;
+    padding-top: 3rem;
+}
+.foot1 img{
+    width: 20px;
+    height: 20px;
+}
+.foot1 p{
+    margin-left: .5rem;
+    color: antiquewhite;
+}
+.item{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.item img{
+    border: 1px solid white;
+    padding: .4rem;
+    border-radius: 50%;
+    margin-left: 23%;
+    cursor: pointer;
+    transition: 1s;
+}
+.item img:hover{
+    color: rgb(215, 120, 136);
+    border: 1.2rem solid rgb(215, 120, 136);
+}
+
+@media (max-width: 480px) {
+    .head {
+        background: rgb(3, 3, 31);
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .flex {
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10vh;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(3, 3, 31);
+        position: fixed;
+    }
+    /* .flex {
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+
+    .flex ul {
+        margin: 0;
+        padding: 0;
+        background: rgb(10, 10, 67);
+        position: fixed;
+        top: 1rem;
+        left: 55%;
+        width: 45%;
+        height: 90vh;
+        flex-direction: column;
+        display: none;
+    }
+
+    .flex{
+        display: flex;
+        position: fixed;
+    }
+
+    .flex ul li {
+        display: block;
+        margin: 0.4rem 0;
+    }
+
+    .close {
+        display: block;
+    }
+
+    .open {
+        display: block;
+        margin-right: 2rem;
+    }
+    .note img {
+        width: 50%;
+        border-radius: 2rem;
+        margin-left: 7rem;
+    }
+    
+    .note {
+        display: inline;
+        
+    }
+    .note h4 {
+        color: brown;
+        font-size: 2rem;
+        padding-top: 3rem;
+        margin-left: 2rem;
+    }
+    
+    .note h1 {
+        color: white;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        margin-left: 1rem;
+    }
+    
+    .note p {
+        color: white;
+        font-size: .8rem;
+        width: 210px;
+        margin-left: 6rem;
+        text-align: center;
+    }
+    .note button {
+        margin-left: 7rem;
+        margin-bottom: .2rem;
+    }
+    .about{
+        background: rgb(2, 45, 59);
+        width: 100%;
+        height: 100vh;
+        padding: 3.2rem;
+    }
+    .about h1{
+        color: rgb(113, 23, 23);
+        font-size: 2rem;
+    }
+    .selet{
+        display: inline;
+    }
+    .selet1 h2{
+        font-size: .9rem;
+        width: 200px;
+        color: antiquewhite;
+        padding: 1rem;
+    }
+    .selet1 p{
+        font-size: .7rem;
+        width: 300px;
+        color: rgb(134, 131, 126);
+        padding: .2rem;
+    }
+    .selet2 h2{
+        font-size: .9rem;
+        width:200px;
+        color: antiquewhite;
+        padding: 1rem;
+    }
+    .selet2 p{
+        font-size: .7rem;
+        width: 300px;
+        color: rgb(134, 131, 126);
+        padding: .2rem;
+    }
+    .selet2{
+        margin-left: 1%;
+        margin-top: 1rem;
+        background: rgb(75, 72, 51);
+        width: 300px;
+        height: 200px;
+        border-radius: 2rem;
+    }
+    .selet1{
+        background: rgb(75, 72, 51);
+        width: 300px;
+        height: 200px;
+        border-radius: 2rem;
+    }
+    
+    .style{
+        background: rgb(3, 21, 60);
+        width: 100%;
+        height: 100vh;
+        padding: 1rem;
+    }
+    .style h3{
+        color: rgb(149, 138, 125);
+        font-size: 1.4rem;
+        text-align: center;
+        padding-top: 2.3rem;
+    }
+    .style h1{
+        color: rgb(191, 38, 38);
+        font-size: 2rem;
+        text-align: center;
+        padding-top: .1rem;
+    }
+    .work{
+        display: inline;
+        padding-top: 1rem;
+    }
+    .work1{
+        background:  rgb(149, 138, 125);
+        border-radius: 2rem;
+        margin-left: 2rem;
+        width: 80%;
+    }
+    .work1 h2{
+        padding: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        color: rgb(137, 18, 18);
+    }
+    .work1 p{
+        padding: 0;
+        width: 280px;
+        text-align: center;
+        font-size: .7rem;
+    }
+    .work2{
+        background:  rgb(149, 138, 125);
+        border-radius: 2rem;
+        margin-left: 2rem;
+        margin-top: .8rem;
+        width: 80%;
+    }
+    .work2 h2{
+        padding: 0;
+        text-align: center;
+        font-size: 1rem;
+        color: rgb(137, 18, 18);
+    }
+    .work2 p{
+        padding: .4rem;
+        width: 280px;
+        text-align: center;
+        font-size: .7rem;
+    }
+    .work3{
+        background:  rgb(149, 138, 125);
+        border-radius: 2rem;
+        margin-left: 2rem;
+        margin-top: .8rem;
+        width: 80%;
+    }
+    .work3 h2{
+        padding: 0;
+        text-align: center;
+        font-size: 1rem;
+        color: rgb(137, 18, 18);
+    }
+    .work3 p{
+        padding: 1rem;
+        width: 280px;
+        text-align: center;
+        font-size: .7rem;
+    }
+
+    .control{
+        background: rgb(3, 3, 31);
+        width: 100%;
+        height: 100vh;
+        padding-top: 5rem;
+    }
+    .control h3{
+        color: rgb(150, 28, 28);
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .control h1{
+        color: antiquewhite;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .con{
+        display: flex;
+        padding-top: 4rem;
+    }
+    .con1 img{
+        margin-left: 2rem;
+        width: 60%;
+    }
+    .con2 img{
+        margin-left: 2rem;
+        width: 60%;
+    }
+    .con3 img{
+        margin-left: 2rem;
+        width: 60%;
+    }
+    .cont{
+        display: flex;
+        padding-top: 3rem;
+    }
+    .con4 img{
+        margin-left: 2rem;
+        width: 60%;
+    }
+    .con5 img{
+        margin-left: 2rem;
+        width: 60%;
+    }
+    .con6 img{
+        margin-left: 2rem;
+        width: 60%;
+    }
+
+    .come{
+        background: rgb(2, 45, 59);
+        width: 100%;
+        height: 100vh;
+        padding: 1rem;
+    }
+    .come .lot{
+        width: 36%;
+        border-radius: 2rem;
+        margin-left: 35%;
+        padding-top: 1.3rem;
+    }
+    .come h1{
+        color: rgb(167, 56, 56);
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .fow{
+        display: flex;
+        margin-left: 2%;
+    }
+    .foot{
+        display: flex;
+        padding-top: 3rem;
+    }
+    .foot img{
+        width: 20px;
+        height: 20px;
+    }
+    .foot p{
+        margin-left: 1rem;
+        color: antiquewhite;
+    }
+    .foot1{
+        display: flex;
+        padding-left: 1rem;
+        padding-top: 3rem;
+    }
+    .foot1 img{
+        width: 20px;
+        height: 20px;
+    }
+    .foot1 p{
+        margin-left: .5rem;
+        color: antiquewhite;
+    }
+    .item{
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    .item img{
+        border: 1px solid white;
+        padding: .4rem;
+        border-radius: 50%;
+        margin-left: 20%;
+        cursor: pointer;
+        transition: 1s;
+    }
+}
